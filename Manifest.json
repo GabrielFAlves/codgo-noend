@@ -9,13 +9,13 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
+      "src": "logo No End 192.jpg",
+      "type": "image/jpg",
       "sizes": "192x192"
     },
     {
-      "src": "logo No End.png",
-      "type": "image/png",
+      "src": "logo No End 512.jpg",
+      "type": "image/jpg",
       "sizes": "512x512"
     }
   ],
