@@ -1,30 +1,44 @@
 import styled from "styled-components";
 
-const Container = styled.div`
-    border-radius: 5px;
-    border: solid 1px black;
+const MinhaDiv = styled.div`
+    .App {
+  text-align: center;
+}
 
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+`;
+
+const MinhaNav = styled.nav`
     display: flex;
     flex-direction: row;
-    column-gap: 1em;
-
-    margin: 5px;
+    gap: 2em;
+    
+    a {
+        text-decoration: none;
+    }
 `;
 
-const Simbolo = styled.span`
-    font-weight: bolder;
-`;
-
-const Descricao = styled.span`
-    font-style: italic;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    height: 1.5em;
-`;
-
-const Momento = styled.span`
-    font-family: monospace;
-`;
-
-export { Container, Simbolo, Descricao, Momento };
+export { MinhaNav, MinhaDiv };
