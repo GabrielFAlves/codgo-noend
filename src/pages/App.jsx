@@ -6,7 +6,7 @@ function App() {
   return (
     <MinhaDiv>
     <div className="App">
-      <Menu />
+      <Menu className="Menu" />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
