@@ -49,11 +49,11 @@ const MinhaDiv = styled.div`
 }
 
 .Square-mid{
-  position: absolute;
   width: 551px;
   height: 576px;
   left: 684px;
   top: 270px;
+  justify-content: center;
 
   background: #0B1015;
   border: 1px solid #FFFFFF;
@@ -64,14 +64,15 @@ const MinhaDiv = styled.div`
 
 #Nome-usuario{
   box-sizing: border-box;
-  display: flex;
+  font-size: 25px;
+  padding-left: 1%;
 
   position: absolute;
   width: 426px;
   height: 72px;
   left: 50%;
-  top: 30%;
-  transform: translate(-50%, -50%);
+  top: 40%;
+  transform: translate(-50%, -40%);
 
   background: #FFFFFF;
   mix-blend-mode: normal;
@@ -81,14 +82,15 @@ const MinhaDiv = styled.div`
 
 #Senha-usuario{
   box-sizing: border-box;
-  display: flex;
+  font-size: 25px;
+  padding-left: 1%;
 
-  position: absolute;
   width: 426px;
   height: 72px;
+  position: absolute;
   left: 50%;
-  top: 50%;
-  transform: translate(-50%, -75%);
+  top: 53%;
+  transform: translate(-50%, -53%);
 
   background: #FFFFFF;
   mix-blend-mode: normal;
@@ -97,38 +99,16 @@ const MinhaDiv = styled.div`
 }
 
 #H-destaque{
-  position: relative;
-  top: -23%;
-}
-
-#H-login{
-  position: relative;
-  top: -18%;
-}
-
-#P-usuario{
-  color: #282c34;
+  box-sizing: border-box;
   position: absolute;
-  width: 426px;
-  height: 72px;
-  left: 25%;
-  top: 30%;
-  transform: translate(-50%, -50%);
-}
+  left: 50%;
+  transform: translate(-50%);
 
-#P-senha{
-  color: #282c34;
-  position: absolute;
-  width: 426px;
-  height: 72px;
-  left: 23%;
-  top: 50%;
-  transform: translate(-50%, -75%);
 }
 
 #B-entrar{
   box-sizing: border-box;
-  display: flex;
+
   position: absolute;
   width: 426px;
   height: 72px;
@@ -145,11 +125,13 @@ const MinhaDiv = styled.div`
 } 
 
 #B-esquecer{
+  box-sizing: border-box;
   position: absolute;
   color: #282c34;
-  left: 63%;
-  top: 73%;
-  text-align: center;
+  top: 72%;
+  right: 37%;
+
+  justify-content: center;
   text-decoration: none;
   font-size: small;
 }
@@ -160,9 +142,10 @@ const MeuNav = styled.nav`
     flex-direction: row;
     gap: 2em;
     justify-content: center;
-    background-color: #282c34;
+    background-color: #0B1015;
     color: white;
     font-size: large;
+    padding: 0.5em;
     a {
         text-decoration: none;
         color: white;

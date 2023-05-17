@@ -1,6 +1,6 @@
 import logo from './logonoend.png';
 import Menu from "../components/Menu/Menu";
-import { MinhaDiv } from '../pages/cad';
+import { MinhaDiv } from './cad';
 
 
 function Cadastro(){
