@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const CadDiv = styled.div`
+const LoginDiv = styled.div`
 
     .body{
         position: fixed;
@@ -38,11 +38,41 @@ const CadDiv = styled.div`
         width: 100%;
     }
 
+    .div-principal input{
+        margin-top: 10px;
+        background-color: #7CACDE;
+        border: none;
+        height: 45px;
+        outline: none;
+        border-radius: 10px;
+        color: #1D1D1C;
+        padding-left: 10px;
+    }
+
     .div-principal img{
         width: 100px;
         height: auto;
     }
 
+    input::placeholder{
+        color: #1D1D1C;
+        font-size: 14px;
+    }
+
+    #b-entrar{
+        display: block;
+        background-color: #214BDE;
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    a{
+        color: #1D1D1C;
+        text-decoration: none;
+    }
+
 `;
 
-export {CadDiv};
+export {LoginDiv};

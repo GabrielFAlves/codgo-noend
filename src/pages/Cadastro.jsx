@@ -1,33 +1,30 @@
-import logo from './logonoend.png';
+import logo from './logom.png';
 import Menu from "../components/Menu/Menu";
-import { MinhaDiv } from './cad';
+import { CadDiv } from './cad';
 
 
 function Cadastro(){
     return(
         <>
-            <MinhaDiv>
+            <CadDiv>
+            <div className='body'>
             <Menu />
-                <div className="App App-header">
-                    <img src={logo} className='Login-logo' alt="logo" />
-                    <h1 id='H-destaque'>Cadastro de Usuário</h1>
-                    <div id='Square-mid'>
-                        <p className='P-cadastro'>Nome e sobrenome:</p>
-                        <p className='P-cadastro'>Email:</p>
-                        <p className='P-cadastro'>Senha:</p>
-                        <p className='P-cadastro'>Departamento:</p>
+                <section className="area-login">
+                    <div className='div-principal'>
+                        <div>
+                            <img src={logo} className='Login-logo' alt="logo" />
+                        </div>
+
+                        <form method='POST'>
+                            <input type="text" name='nome' placeholder='nome de usuario' autoFocus />
+                            <input type="password" name='senha' placeholder='sua senha' />
+                            <input type="submit" value="entrar" id='b-entrar' />
+                        </form>
+                        <a href=''>Esqueceu sua senha?</a>
                     </div>
-                    
-                    <div>
-                        <input type="text" id='In-cadastro1'/>
-                        <input type="text" id='In-cadastro2'/>
-                        <input type="text" id='In-cadastro3'/>
-                        <input type="text" id='In-cadastro4'/>
-                    </div>
-                <button id='B-cadastrar'>Cadastrar</button>
-                
-                </div>
-            </MinhaDiv>
+                </section>
+            </div>
+            </CadDiv>
         </>
     );
 }

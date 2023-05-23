@@ -25,7 +25,7 @@ const MinhaDiv = styled.div`
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #3191F5;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -142,7 +142,7 @@ const MeuNav = styled.nav`
     flex-direction: row;
     gap: 2em;
     justify-content: center;
-    background-color: #0B1015;
+    background-color: #214BDE;
     color: white;
     font-size: large;
     padding: 0.5em;
