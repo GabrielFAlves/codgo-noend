@@ -68,7 +68,7 @@ const CadDiv = styled.div`
         margin-top: 1.5rem;
         margin-bottom: 2.5rem;
         border: none;
-        background-color: #6c63ff;
+        background-color: #214BDE;
         padding: 0.62rem;
         border-radius: 5px;
         cursor: pointer;
@@ -76,7 +76,7 @@ const CadDiv = styled.div`
        }
 
        .Send-button button:hover {
-        background-color: #6b63fff1;
+        background-color: #3191F5;
        }
 
        .Send-button a {
@@ -146,17 +146,6 @@ const CadDiv = styled.div`
                 padding-right: 5rem;
             }
 
-            .Criticity-inputs {
-                margin-top: 2rem;
-            }
-
-            .Criticity-group {
-                flex-direction: column;
-            }
-
-            .Criticity-input {
-                margin-top: 0.5rem;
-            }
        }
 `;
 
