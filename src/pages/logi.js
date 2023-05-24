@@ -17,8 +17,6 @@ const LoginDiv = styled.div`
         justify-content: center;
         align-items: center;
         height: 100vh;
-        justify-content: center;
-        align-items: center;
     }
 
     .div-principal{
