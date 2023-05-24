@@ -9,6 +9,9 @@ function Cadastro(){
         <>
             <Menu />
             <CadDiv>
+                <div>
+                <img src={logo} className='logologo' alt="logo" />
+                </div>
             <div className='Container'>
                             <div className='Chad-image'>
                                 <img src= {img} alt='Imagem ilustrativa' title='Imagem ilustrativa ' />

@@ -2,7 +2,14 @@ import styled from "styled-components";
 
 const CadDiv = styled.div`
 
-.Chad-body {
+    .logologo{
+        position:fixed ;
+        bottom: 0%;
+        right: 0%;
+        height: 120px;
+    }
+
+    .Chad-body {
         width: 100%;
         height: 100vh;
         display: flex;
