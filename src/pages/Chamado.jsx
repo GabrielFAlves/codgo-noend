@@ -2,6 +2,7 @@ import Menu from '../components/Menu/Menu';
 import { NossaDiv } from './chad';
 import imagem from '../pages/tec.png';
 
+//ze
 function Chamado () {
     return(
         <>
