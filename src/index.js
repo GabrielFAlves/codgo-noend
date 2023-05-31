@@ -28,10 +28,12 @@ const rotas = createBrowserRouter([
     element: <Cadastro />
   },
 
+
   {
     path: "/chamado",
     element: <Chamado />
   }
+
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

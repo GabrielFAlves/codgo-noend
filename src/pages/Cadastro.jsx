@@ -1,35 +1,70 @@
-import logo from './logonoend.png';
+
+import logo from './logom.png';
+import img from'./imgcad.svg';
 import Menu from "../components/Menu/Menu";
-import { MinhaDiv } from '../pages/cad';
+import { CadDiv } from './cad';
 
 
 function Cadastro(){
     return(
         <>
-            <MinhaDiv>
             <Menu />
-                <div className="App App-header">
-                    <img src={logo} className='Login-logo' alt="logo" />
-                    <h1 id='H-destaque'>Cadastro de Usuário</h1>
-                    <div id='Square-mid'>
-                        <p className='P-cadastro'>Nome e sobrenome:</p>
-                        <p className='P-cadastro'>Email:</p>
-                        <p className='P-cadastro'>Senha:</p>
-                        <p className='P-cadastro'>Departamento:</p>
-                    </div>
-                    
-                    <div>
-                        <input type="text" id='In-cadastro1'/>
-                        <input type="text" id='In-cadastro2'/>
-                        <input type="text" id='In-cadastro3'/>
-                        <input type="text" id='In-cadastro4'/>
-                    </div>
-                <button id='B-cadastrar'>Cadastrar</button>
-                
+            <CadDiv>
+                <div>
+                <img src={logo} className='logologo' alt="logo" />
                 </div>
-            </MinhaDiv>
+            <div className='Container'>
+                            <div className='Chad-image'>
+                                <img src= {img} alt='Imagem ilustrativa' title='Imagem ilustrativa ' />
+                                </div>
+                            <div className='Chad'>
+                                <form action="#">
+                                    <div className='Chad-header'>
+                                        <div className='Chad-title'>
+                                            <h1 className=''>Cadastrar Usuário</h1>
+                                        </div>
+                                    </div>
+                                    
+                                    <div className='Input-group'>
+                                        <div className='Input-box'>
+                                            <label for='fullname'>Nome completo</label>
+                                            <input id='fullname' type='text' name='fullname' placeholder='Digite seu nome' required/>
+                                        </div>
+
+                                        <div className='Input-box'>
+                                            <label for='email'>E-mail</label>
+                                            <input id='email' type='email' name='email' placeholder='Digite seu email' required/>
+                                        </div>
+
+                                        <div className='Input-box'>
+                                            <label for='password'>Senha</label>
+                                            <input id='password' type='password' name='password' placeholder='Digitar senha' required/>
+                                        </div>
+
+                                        <div className='Input-box'>
+                                            <label for='Confirmpassword'>Confirmar senha</label>
+                                            <input id='Confirmpassword' type='password' name='Confirmpassword' placeholder='Digitar senha' required/>
+                                        </div>
+
+                                        <div className='Input-box'>
+                                            <label for='setor'>Setor</label>
+                                            <input id='setor' type='setor' name='setor' placeholder='Digitar setor' required/>
+                                        </div>
+
+                                    </div>
+
+                                    <div className='Send-button'>
+                                            <button><a href='#'>Cadastrar</a></button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+            </CadDiv>
         </>
     );
 }
 
 export default Cadastro;
+
+
+
