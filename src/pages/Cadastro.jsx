@@ -1,3 +1,4 @@
+
 import logo from './logom.png';
 import img from'./imgcad.svg';
 import Menu from "../components/Menu/Menu";
@@ -64,3 +65,6 @@ function Cadastro(){
 }
 
 export default Cadastro;
+
+
+
