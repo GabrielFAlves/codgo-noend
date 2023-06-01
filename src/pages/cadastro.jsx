@@ -1,6 +1,6 @@
 import logo from './logonoend.png';
 import Menu from "../components/Menu/Menu";
-import { MinhaDiv } from '../pages/cad';
+import { MinhaDiv } from './cad';
 
 
 function Cadastro(){
@@ -24,7 +24,7 @@ function Cadastro(){
                         <input type="text" id='In-cadastro3'/>
                         <input type="text" id='In-cadastro4'/>
                     </div>
-                <button id='B-cadastrar'>Cadastrar</button>
+                <button id='B-Cadastrar'>Cadastrar</button>
                 
                 </div>
             </MinhaDiv>
