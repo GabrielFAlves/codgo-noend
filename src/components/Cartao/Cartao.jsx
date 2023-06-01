@@ -1,19 +1,24 @@
-import { Container, Descricao, Momento, Simbolo } from "./style";
+import {  Container, Descricao, Momento, Simbolo, Criticidade,Setor } from "./style";
 
 const Cartao = ( props ) => (
+
     <Container>
         <Simbolo>{ props.simb }</Simbolo>
-        <Descricao>Lorem ipsum dolor sit, 
-            amet consectetur adipisicing elit. 
-            Doloribus voluptas numquam possimus 
-            obcaecati impedit suscipit illo 
-            doloremque enim laudantium quaerat 
-            pariatur amet dolores harum eveniet 
-            voluptate dolorum, ratione 
-            ipsa blanditiis!
+        <Descricao>{props.descri}
+            o chamado foi aberto na data 
         </Descricao>
-        <Momento>{ props.data }</Momento>
+       <Momento>{ props.data }</Momento> 
+       <Criticidade>
+            de nível  {props.critico}
+        </Criticidade>
+        <Setor>
+            no setor de {props.setor}
+        </Setor> 
+       
+        
     </Container>
+
 );
+
 
 export default Cartao;
