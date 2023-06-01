@@ -13,7 +13,7 @@ function Header() {
             </nav>
     
         </div>
-      <Grafico/> 
+ 
 
     </Body>
     </Tudo>

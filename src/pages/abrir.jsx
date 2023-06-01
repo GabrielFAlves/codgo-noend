@@ -9,7 +9,7 @@ function Abrir() {
        <div>
         <Menu/>
         <Header/>
-        <Grafico/>
+        <Grafico status1={"aberto"} status2={"pendente"} status3={"fechado"}/>
 
 
 

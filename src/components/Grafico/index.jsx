@@ -1,23 +1,35 @@
-import React from "react";
-import { Pie } from "react-chartjs-2";
+import React, {useEffect, useRef} from "react";
+import { Pie } from 'react-chartjs-2';
+import Chart from 'chart.js/auto';
 
-function Grafico() {
-  const data = {
-    labels: ["Label 1", "Label 2", "Label 3"],
-    datasets: [
-      {
-        data: [30, 50, 20],
-        backgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
-        hoverBackgroundColor: ["#FF6384", "#36A2EB", "#FFCE56"],
+
+function Grafico({status1, status2, status3}) {
+  const chartRef = useRef(null);
+  const chartInstance = useRef(null);
+
+  useEffect(() => {
+    if (chartInstance.current) {
+      chartInstance.current.destroy();
+    }
+
+    chartInstance.current = new Chart(chartRef.current, {
+      type: 'pie',
+      data: {
+        labels: [status1, status2, status3],
+        datasets: [
+          {
+            data: [19, 12, 8],
+            backgroundColor: ['rgba(54, 162, 235, 0.6)', 'rgba(255, 99, 132, 0.6)', 'rgba(255, 206, 86, 0.6)'],
+            borderColor: ['rgba(54, 162, 235, 0.6)', 'rgba(255, 99, 132, 0.6)', 'rgba(255, 206, 86, 0.6)'],
+            borderWidth: 1,
+          },
+        ],
       },
-    ],
-  };
+    });
+  }, []);
 
-  return (
-    <div>
-      <Pie data={data} />
-    </div>
-  );
-}
+  return <canvas ref={chartRef} />;
+};
+
 
 export default Grafico;
