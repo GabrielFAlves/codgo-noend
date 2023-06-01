@@ -1,0 +1,23 @@
+body, html {
+    height: 100%;
+}
+
+#zaza {
+align-items: center;
+background-color: green;
+border-radius: 10px;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+button {
+background-color: #1A222A;
+    color: white;
+    font-size: 45px;
+    border-radius: 10px;
+
+}
