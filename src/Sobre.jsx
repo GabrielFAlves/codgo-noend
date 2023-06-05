@@ -1,7 +1,7 @@
-import Menu from "../components/Menu/Menu";
-import Cartao from "../components/Cartao/Cartao";
+import Menu from "./components/Menu/Menu";
+import Cartao from "./components/Cartao/Cartao";
 import imagem from "./imgmicromeros.jpeg";
-import { Imagem } from "../components/Cartao/style";
+import { Imagem } from "./components/Cartao/style";
 
 
 const Sobre = () => (
