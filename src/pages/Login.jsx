@@ -19,7 +19,7 @@ function Login(){
                             <input type="password" name='senha' placeholder='sua senha' />
                             <input type="submit" value="entrar" id='b-entrar' />
                         </form>
-                        <a href=''>Esqueceu sua senha?</a>
+                        <a href=''>Esqueceu sua senha???</a>
                     </div>
                 </section>
             </div>
