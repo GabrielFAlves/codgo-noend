@@ -1,6 +1,6 @@
 import Menu from "./components/Menu/Menu";
 import Cartao from "./components/Cartao/Cartao";
-import imagem from "./imgmicromeros.jpeg";
+import imagem from "./logomicromeros.jpeg";
 import { Imagem } from "./components/Cartao/style";
 
 
