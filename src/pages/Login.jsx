@@ -29,6 +29,7 @@ function Login(){
                                             <input id='user' type='text' name='user' placeholder='Digite seu nome' required/>
                                         </div>
 
+<<<<<<< HEAD
                                         <div className='Input-box'>
                                             <label for='password'>Senha</label>
                                             <input id='password' type='password' name='password' placeholder='Digitar senha' required/>
@@ -45,6 +46,17 @@ function Login(){
                                 </form>
                             </div>
                         </div>
+=======
+                        <form method='POST'>
+                            <input type="text" name='nome' placeholder='nome de usuario' autoFocus />
+                            <input type="password" name='senha' placeholder='sua senha' />
+                            <input type="submit" value="entrar" id='b-entrar' />
+                        </form>
+                        <a href=''>Esqueceu sua senha???</a>
+                    </div>
+                </section>
+            </div>
+>>>>>>> 820fcc07f49056c9d211618a6925a5d5ba6be7e4
             </LoginDiv>
         </>
     );

@@ -10,7 +10,7 @@ const Container = styled.div`
     column-gap: 1.5em;
     margin: 10px;
     padding: 0 1em;
-    
+    background-color: white;
 
 `;
 

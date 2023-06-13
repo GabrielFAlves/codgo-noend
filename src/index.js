@@ -4,7 +4,7 @@ import './index.css';
 import App from './pages/App';
 import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
-import Sobre from './pages/Sobre';
+import Sobre from './Sobre';
 import Login from './pages/Login';
 import Cadastro from './pages/Cadastro';
 import Chamado from './pages/Chamado';
