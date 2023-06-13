@@ -1,26 +1,29 @@
-import logo from './logonoend.png';
+import logo from './logom.png';
 import Menu from "../components/Menu/Menu";
-import { MinhaDiv } from "../components/Menu/style";
+import { LoginDiv } from './logi';
 
 function Login(){
     return(
         <>
-            <MinhaDiv>
+            <LoginDiv>
+            <div className='body'>
             <Menu />
-                <div className="App App-header">
-                    <div className='Square-mid'>
-                        <img src={logo} className='Login-logo' alt="logo" />
-                        <h1 id='H-destaque'>NoEnd</h1>
-                        <h2 id='H-login'>Login</h2>
-                        <input type="text" id='Nome-usuario' />
-                        <p id='P-usuario'>usuario...</p>
-                        <input type="text" id='Senha-usuario' />
-                        <p id='P-senha'>senha...</p>
-                        <button id='B-entrar'>Entrar</button>
-                        <a href="" id='B-esquecer'>Esqueceu sua senha</a>
+                <section className="area-login">
+                    <div className='div-principal'>
+                        <div>
+                            <img src={logo} className='Login-logo' alt="logo" />
+                        </div>
+
+                        <form method='POST'>
+                            <input type="text" name='nome' placeholder='nome de usuario' autoFocus />
+                            <input type="password" name='senha' placeholder='sua senha' />
+                            <input type="submit" value="entrar" id='b-entrar' />
+                        </form>
+                        <a href=''>Esqueceu sua senha?</a>
                     </div>
-                </div>
-            </MinhaDiv>
+                </section>
+            </div>
+            </LoginDiv>
         </>
     );
 }
