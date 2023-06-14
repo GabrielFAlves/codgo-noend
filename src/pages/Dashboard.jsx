@@ -16,8 +16,8 @@ const Dashboard = () => {
       {
         data: Object.values(countChamados),
         backgroundColor: ['rgba(64, 236, 222, 0.6)', 'rgba(64, 101, 223, 0.6)', 'rgba(255, 255, 255, 0.6)'],
-        borderColor: ['rgba(75, 192, 192, 1)', '#63ff8a', 'rgba(54, 162, 235, 1)'],
-        borderWidth: 1,
+        borderColor: ['rgba(23, 118, 228, 0.6)', 'rgba(23, 118, 228, 0.6)', 'rgba(23, 118, 228, 0.6)'],
+        borderWidth: 4,
       },
     ],
   };
@@ -29,8 +29,8 @@ const Dashboard = () => {
         label: 'Mes',
         data: data.map(item => item.chamadosmes),
         backgroundColor: 'rgba(46, 236, 236, 0.6)',
-        borderColor: 'rgba(46, 236, 236, 0.6)',
-        borderWidth: 1,
+        borderColor: 'rgba(23, 118, 228, 0.6)',
+        borderWidth: 4,
       },
     ],
   };
