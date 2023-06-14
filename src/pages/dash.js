@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const DashDiv = styled.div`
 .grafico_div{
-  margin-left: 35%;
+  margin-left: 15%;
   margin-top: 10%;
 }
 
