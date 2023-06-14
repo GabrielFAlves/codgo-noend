@@ -8,7 +8,7 @@ const Menu = () => (
         <Link to="/sobre">Visualizar chamado</Link>
         <Link to="/cadastro">Cadastro</Link>
         <Link to="/chamado">Abrir chamado</Link>
-        <Link to="/dashboard">Dashboard</Link>
+        <Link to="/dashboar">Dashboard</Link>
 
     </MeuNav>
 );

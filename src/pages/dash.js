@@ -1,6 +1,11 @@
 import styled from "styled-components";
 
 const DashDiv = styled.div`
+.grafico_div{
+  margin-left: 35%;
+  margin-top: 10%;
+}
+
 .logologo{
         position:fixed ;
         bottom: 0%;
