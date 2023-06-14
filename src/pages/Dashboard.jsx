@@ -5,7 +5,6 @@ import { DashDiv } from "./dash";
 Chart.register(...registerables);
 
 const Dashboard = () => {
-  // Contagem dos funcionários por chamados
   const countByDepartment = data.reduce((count, item) => {
     count[item.chamados] = (count[item.chamados] || 0) + 1;
     return count;

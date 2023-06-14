@@ -1,26 +1,26 @@
 [
     {
-      "chamadosmes": 5000,
+      "chamadosmes": 5,
       "mes": "janeiro",
       "chamados": "aberto"
     },
     {
-      "chamadosmes": 7000,
+      "chamadosmes": 7,
       "mes": "fevereiro",
       "chamados": "fechado"
     },
     {
-      "chamadosmes": 6000,
+      "chamadosmes": 6,
       "mes": "março",
       "chamados": "aberto"
     },
     {
-      "chamadosmes": 4500,
+      "chamadosmes": 4,
       "mes": "abril",
       "chamados": "andamento"
     },
     {
-      "chamadosmes": 8000,
+      "chamadosmes": 8,
       "mes": "meio",
       "chamados": "fechado"
     }
