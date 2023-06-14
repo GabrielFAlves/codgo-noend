@@ -1,11 +1,14 @@
 import Menu from "./components/Menu/Menu";
 import Cartao from "./components/Cartao/Cartao";
-import imagem from "./imgmicromeros.jpeg";
+import imagem from "./pages/logom.png";
 import { Imagem } from "./components/Cartao/style";
+import { SobreDiv } from "./sob";
 
 
 const Sobre = () => (
     <>
+    <SobreDiv>
+    <div className='body'>
     <Menu />
     <center><h1><i>Visualizar chamado</i></h1></center>
     <center>
@@ -119,8 +122,9 @@ const Sobre = () => (
     />
     </center>
 
-    <Imagem src={imagem} /> 
-    
+    <Imagem src={imagem} />
+    </div>
+    </SobreDiv>
  </>
 );
 
