@@ -5,16 +5,16 @@ import { DashDiv } from "./dash";
 Chart.register(...registerables);
 
 const Dashboard = () => {
-  const countByDepartment = data.reduce((count, item) => {
+  const countChamados = data.reduce((count, item) => {
     count[item.chamados] = (count[item.chamados] || 0) + 1;
     return count;
   }, {});
 
-  const chartData = {
-    labels: Object.keys(countByDepartment),
+  const dadosGrafico = {
+    labels: Object.keys(countChamados),
     datasets: [
       {
-        data: Object.values(countByDepartment),
+        data: Object.values(countChamados),
         backgroundColor: ['rgba(64, 236, 222, 0.6)', 'rgba(64, 101, 223, 0.6)', 'rgba(255, 255, 255, 0.6)'],
         borderColor: ['rgba(75, 192, 192, 1)', '#63ff8a', 'rgba(54, 162, 235, 1)'],
         borderWidth: 1,
@@ -22,7 +22,7 @@ const Dashboard = () => {
     ],
   };
 
-  const salaryData = {
+  const chamadosPorMes = {
     labels: data.map(item => item.mes),
     datasets: [
       {
@@ -43,14 +43,14 @@ const Dashboard = () => {
       <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
       <div style={{ flex: '1 1 100%', maxWidth: '100%' }}>
           <h2 style={{ fontSize: '16px', textAlign: 'center', marginBottom: '50px' }}>Chamados por mes</h2>
-          <div style={{ width: '400px', height: '300px', margin: '0 auto' }}>
-            <Bar data={salaryData} />
+          <div style={{ width: '500px', height: '300px', margin: '0 auto' }}>
+            <Bar data={chamadosPorMes} />
           </div>
         </div>
         <div style={{ flex: '1 1 100%', maxWidth: '100%' }}>
           <h2 style={{ fontSize: '16px', textAlign: 'center', marginBottom: '10px' }}>Chamados por semana</h2>
-          <div style={{ width: '300px', height: '300px', margin: '0 auto' }}>
-            <Pie data={chartData} />
+          <div style={{ width: '350px', height: '350px', margin: '0 auto' }}>
+            <Pie data={dadosGrafico} />
           </div>
         </div>
       </div>
