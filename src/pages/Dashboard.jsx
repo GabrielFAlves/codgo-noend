@@ -42,19 +42,18 @@ const Dashboard = () => {
     <DashDiv>
     <div className='grafico_div'>
       <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
+      <div style={{ flex: '1 1 100%', maxWidth: '100%' }}>
+          <h2 style={{ fontSize: '16px', textAlign: 'center', marginBottom: '50px' }}>Chamados por mes</h2>
+          <div style={{ width: '400px', height: '300px', margin: '0 auto' }}>
+            <Bar data={salaryData} />
+          </div>
+        </div>
         <div style={{ flex: '1 1 100%', maxWidth: '100%' }}>
           <h2 style={{ fontSize: '16px', textAlign: 'center', marginBottom: '10px' }}>Chamados por semana</h2>
           <div style={{ width: '300px', height: '300px', margin: '0 auto' }}>
             <Pie data={chartData} />
           </div>
         </div>
-        <div style={{ flex: '1 1 100%', maxWidth: '100%' }}>
-          <h2 style={{ fontSize: '16px', textAlign: 'center', marginBottom: '50px' }}>Chamados por mes</h2>
-          <div style={{ width: '400px', height: '300px', margin: '0 auto' }}>
-            <Bar data={salaryData} />
-          </div>
-        </div>
-        
       </div>
     </div>
     </DashDiv>
