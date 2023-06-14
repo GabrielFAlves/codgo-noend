@@ -1,0 +1,63 @@
+[
+    {
+      "chamadosmes": 5000,
+      "mes": "janeiro",
+      "chamados": "aberto"
+    },
+    {
+      "chamadosmes": 7000,
+      "mes": "fevereiro",
+      "chamados": "fechado"
+    },
+    {
+      "chamadosmes": 6000,
+      "mes": "março",
+      "chamados": "aberto"
+    },
+    {
+      "chamadosmes": 4500,
+      "mes": "abril",
+      "chamados": "fechado"
+    },
+    {
+      "chamadosmes": 8000,
+      "mes": "meio",
+      "chamados": "fechado"
+    },
+    {
+      "chamadosmes": 5500,
+      "mes": "junho",
+      "chamados": "fechado"
+    },
+    {
+      "chamadosmes": 4800,
+      "mes": "julho",
+      "chamados": "fechado"
+    },
+    {
+      "chamadosmes": 6500,
+      "mes": "agosto",
+      "chamados": "fechado"
+    },
+    {
+      "chamadosmes": 7000,
+      "mes": "setembro",
+      "chamados": "fechado"
+    },
+    {
+      "chamadosmes": 4200,
+      "mes": "outubro",
+      "chamados": "andamento"
+    },
+    {
+      "mes": "novembro",
+      "chamadosmes": 3800,
+      "chamados": "andamento"
+    },
+    {
+      "mes": "dezembro",
+      "chamadosmes": 2800,
+      "chamados": "andamento"
+    }
+  ]
+  

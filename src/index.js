@@ -8,7 +8,7 @@ import Sobre from './Sobre';
 import Login from './pages/Login';
 import Cadastro from './pages/Cadastro';
 import Chamado from './pages/Chamado';
-import Dashboard from './pages/Dashboard';
+import Dashboar from './pages/Dashboar';
 
 
 const rotas = createBrowserRouter([
@@ -33,8 +33,8 @@ const rotas = createBrowserRouter([
     element: <Chamado />
   },
   {
-    path: "/dashboard",
-    element: <Dashboard />
+    path: "/dashboar",
+    element: <Dashboar />
   }
 
 ])
