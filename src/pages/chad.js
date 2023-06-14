@@ -109,12 +109,6 @@ const NossaDiv = styled.div`
         outline: 1px solid #6c63ff;
       }
 
-      .Input-box label,
-      .Criticity-titles h6 {
-        font-size: 0.75rem;
-        font-weight: 600;
-        color: black;
-      }
 
       .Input-box input::placeholder {
         color: #000000be;
@@ -186,5 +180,6 @@ const NossaDiv = styled.div`
                 margin-top: 0.5rem;
             }
        }
+
 `
 export { NossaDiv };

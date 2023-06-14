@@ -7,7 +7,7 @@ import { Imagem } from "../components/Cartao/style";
 const Sobre = () => (
     <>
     <Menu />
-    <center><h1><i>Visualizar chamado</i></h1></center>
+    <center><h1>Visualizar chamado</h1></center>
     <center>
     <Cartao
         simb={"Guilherme Duran"}
